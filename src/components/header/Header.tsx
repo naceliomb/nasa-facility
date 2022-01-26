@@ -1,6 +1,6 @@
 import LogoWhite from '../../assets/images/logoWhite.png';
 import './style.css';
-export function Header() {
+function Header() {
     return (
         <div className="header-main">
             <div className="logo-container">
@@ -15,3 +15,5 @@ export function Header() {
         </div>
     );
 }
+
+export default Header;

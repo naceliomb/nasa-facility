@@ -25,9 +25,20 @@
 }
 
 .header-main .main-menu .main-menu_item a{
+    font-family: 'Druk Wide Bold', sans-serif;
     color: #F1FAFF;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+
+    transition: color, .5s ease-in-out;
+}
+
+.header-main .main-menu .main-menu_item a:hover{
+    color: #009CF8;
+}
+
+.header-main .main-menu .main-menu_item a:active{
+    color: #009CF8;
 }
 
