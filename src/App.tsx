@@ -1,7 +1,11 @@
 import './global/styles/reset.css';
+import './assets/styles/index.css';
+import { Header } from './components/header/Header';
 
 function App() {
-  return <h1>Nasa Facility</h1>;
+  return (
+    <Header />  
+  );
 }
 
-export default App
+export default App;
