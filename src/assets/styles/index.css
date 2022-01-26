@@ -2,3 +2,9 @@ body{
     background-color: #343D46;
     margin: 150px 200px;
 }
+
+.main-page{
+    width: 100%;
+    max-width: 1520px;
+    height: auto;
+}
