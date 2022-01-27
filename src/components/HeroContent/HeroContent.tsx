@@ -9,6 +9,8 @@ type HeroProps = {
     buttonImage?: string | undefined,
     buttonActive: boolean,
     rightHero?: boolean,
+    normal?: boolean | true,
+    thin?: boolean | false
 };
 
 function HeroContent(props: HeroProps) {
@@ -32,7 +34,7 @@ function HeroContent(props: HeroProps) {
                 </div>
                 <div className="hero_text-paragraph-container">
                     {paragraphsArray.map((paragraph) => {
-                        return <Paragraph text={paragraph} />;
+                        return <Paragraph text={paragraph} normal={props.normal==false ? props.normal : true} thin={props.thin==true ? props.thin : false}/>;
                     })}
 
                     <div className={props.buttonActive ? "hero_text-button" : ""}>

@@ -63,6 +63,8 @@ function App() {
                         buttonImage={marsImageButtonImage}
                         buttonText="LET'S GO?"
                         rightHero={true}
+                        normal={false}
+                        thin={true}
                     />
                 </section>
                 <section className="features-section_mars-rovers">
@@ -73,6 +75,8 @@ function App() {
                         buttonActive={true}
                         buttonImage={astronautButtonRocket}
                         buttonText="LET'S GO?"
+                        normal={false}
+                        thin={true}
                     />
                 </section>
 			</section>
