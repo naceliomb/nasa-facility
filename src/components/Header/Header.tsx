@@ -8,7 +8,7 @@ function Header() {
             </div>
             <div className="main-menu">
                 <span className="main-menu_item"><a href="#">home</a></span>
-                <span className="main-menu_item"><a href="#">feature</a></span>
+                <span className="main-menu_item"><a href="#">features</a></span>
                 <span className="main-menu_item"><a href="#">license</a></span>
                 <span className="main-menu_item"><a href="#">about</a></span>
             </div>

@@ -40,9 +40,14 @@
     text-transform: uppercase;
 }
 
-.hero .hero_text-container .hero_text-content{
+.hero .hero_text-container .hero_text-content {
     margin-top: 60px;
 }
+
+.second-paragraph{
+    margin-top: 20px !important;
+}
+
 
 .hero .hero_text-container .hero_text-content p{
     font-family: 'Druk Wide Bold', sans-serif;
@@ -65,9 +70,11 @@
     position: relative;
 
     margin-left: 40px;
-    margin-top: 60px;
+    margin-top: 120px;
 
     background-color: #009CF8;
+
+    cursor: pointer;
 }
 
 .hero .hero_text-button a{
@@ -83,7 +90,7 @@
 
 .hero .hero_text-button img {
     position: absolute;
-    width: 40%;
-    right: -20%;
+    max-width: 40%;
+    right: -15%;
     bottom: 0;
 }

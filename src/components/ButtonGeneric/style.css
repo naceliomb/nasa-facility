@@ -1,0 +1,46 @@
+.button-generic{
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    margin: 0 auto;
+
+    background-color: #009CF8;
+    transition: all, .2s ease-in;
+
+    cursor: pointer;
+}
+
+.button-generic:hover{
+    background-color: #F1FAFF;
+}
+
+.button-generic:hover a{
+    color: #009CF8;
+}
+
+.button-generic a{
+    text-decoration: none;
+
+    font-family: 'Druk Wide Bold', sans-serif;
+    color: #F1FAFF;
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+}
+
+.button-generic img {
+    position: absolute;
+    width: 40%;
+    right: -20%;
+    bottom: 0;
+}
