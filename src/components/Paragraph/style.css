@@ -6,3 +6,11 @@
     color: #F1FAFF;
 
 }
+
+.hero_text-content_thin {
+    margin-top: 20px;
+}
+
+.hero_text-content_thin:first-child {
+    margin-top: 60px !important;
+}

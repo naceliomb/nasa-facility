@@ -48,3 +48,12 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+.main-page .features-section .about-section_infos{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
