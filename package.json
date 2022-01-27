@@ -1,11 +1,13 @@
 {
   "name": "nasa-facility",
-  "version": "0.0.0",
+  "version": "1.0.1",
+  "description": "Facility acess to information of NASA",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "author": "Nacelio M Barbosa <naceliombdev@gmail.com>",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
