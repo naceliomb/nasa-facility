@@ -1,0 +1,111 @@
+.hero {
+    width: 100%;
+    min-height: 200px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.right-hero{
+    flex-direction: row-reverse  !important;
+}
+
+.hero .hero_image-container {
+    max-width: 50%;
+}
+
+
+.hero .hero_image-container img {
+    width: 100%;
+}
+
+.hero .hero_text-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+            
+}
+
+.hero .hero_text-container .hero_text-title h3{
+    font-family: 'Druk Wide Bold', sans-serif;
+    color: #F1FAFF;
+
+    font-size: 28px;
+
+    text-transform: uppercase;
+}
+
+.hero .hero_text-container .hero_text-content {
+    margin-top: 20px;
+}
+
+.hero .hero_text-container .hero_text-content:first-child {
+    margin-top: 60px !important;
+}
+
+.second-paragraph{
+    margin-top: 20px !important;
+}
+
+
+.hero .hero_text-container .hero_text-content p{
+    font-family: 'Druk Wide Bold', sans-serif;
+    color: #F1FAFF;
+
+    font-size: 22px;
+}
+
+.hero .hero_text-button{
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    margin-left: 40px;
+    margin-top: 120px;
+
+    background-color: #009CF8;
+
+    cursor: pointer;
+
+    transition: all, .2s ease-in;
+
+}
+
+.hero .hero_text-button:hover{
+    background-color: #F1FAFF;
+}
+
+.hero .hero_text-button:hover a{
+    color: #009CF8;
+}
+
+.hero .hero_text-button a{
+    text-decoration: none;
+
+    font-family: 'Druk Wide Bold', sans-serif;
+    color: #F1FAFF;
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+}
+
+.hero .hero_text-button img {
+    position: absolute;
+    max-width: 40%;
+    right: -15%;
+    bottom: 0;
+}

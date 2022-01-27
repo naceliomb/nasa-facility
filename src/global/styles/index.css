@@ -1,0 +1,59 @@
+body {
+    background-color: #343d46;
+}
+
+.main-page {
+    width: 100%;
+    max-width: 1520px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*
+    index page
+*/
+
+/* .main-page .sub-section {
+    margin-top: 60px;
+} */
+
+
+.main-page .landing-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-page .features-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.main-page .features-section .features-section_mars-images{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-page .features-section .features-section_mars-rovers{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.main-page .features-section .about-section_infos{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
