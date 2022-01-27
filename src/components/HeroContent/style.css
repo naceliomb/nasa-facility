@@ -36,7 +36,7 @@
     color: #F1FAFF;
 
     font-size: 28px;
-
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@
 .hero .hero_text-container .hero_text-content p{
     font-family: 'Orbitron', sans-serif;
     color: #F1FAFF;
-
+    font-weight: bold;
     font-size: 22px;
 }
 
@@ -98,6 +98,8 @@
     font-family: 'Orbitron', sans-serif;
     color: #F1FAFF;
     font-size: 18px;
+
+    font-weight: bold;
 
     text-transform: uppercase;
 
