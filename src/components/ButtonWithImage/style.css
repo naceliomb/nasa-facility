@@ -1,0 +1,6 @@
+.left-button-image img{
+    position: absolute;
+    max-width: 40%;
+    left: -10% !important;
+    bottom: 0;
+}

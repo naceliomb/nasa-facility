@@ -13,6 +13,8 @@ import astronautButtonRocket from "./assets/images/astronautButtonRocket.png"
 
 
 function App() {
+
+    //data
     const titleApresentation = "HOUSTON? I HAVE A SOLUTION!";
     const contentApresentation1 = "Public information provided by NASA's API in a simplified and fair way.";
     const contentApresentation2 = "Get access to photos and other information from nasa missions.";
@@ -23,7 +25,7 @@ function App() {
 
     };
     
-    const marsImageApresentation1 = "Get access to images of our red neighbor.Thanks to rovers sent to mars by NASA ( Curiosity, Opportunity, Spirit, Perseverance ), we can have access to images of Mars."
+    const marsImageApresentation1 = "Get access to images of our red neighbor.<br>Thanks to rovers sent to mars by NASA ( Curiosity, Opportunity, Spirit, Perseverance ), we can have access to images of Mars."
     const marsImageApresentation2 = "Filter your search by Data, Camera, Rover."
     const marsImageApresentation = {
         marsImageApresentation1, 
@@ -77,6 +79,7 @@ function App() {
                         buttonText="LET'S GO?"
                         normal={false}
                         thin={true}
+                        leftButtonImage={true}
                     />
                 </section>
 			</section>

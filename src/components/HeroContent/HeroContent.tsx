@@ -1,5 +1,6 @@
 import "./style.css";
 import Paragraph from "../Paragraph/Paragraph";
+import ButtonWithImage from "../ButtonWithImage/ButtonWithImage";
 
 type HeroProps = {
     title?: string,
@@ -8,6 +9,7 @@ type HeroProps = {
     heroImage: string | undefined,
     buttonImage?: string | undefined,
     buttonActive: boolean,
+    leftButtonImage?: boolean,
     rightHero?: boolean,
     normal?: boolean | true,
     thin?: boolean | false
@@ -37,10 +39,8 @@ function HeroContent(props: HeroProps) {
                         return <Paragraph text={paragraph} normal={props.normal==false ? props.normal : true} thin={props.thin==true ? props.thin : false}/>;
                     })}
 
-                    <div className={props.buttonActive ? "hero_text-button" : ""}>
-                        <img className="hero_text-button_image" src={props.buttonImage} />
-                        <a href="#">{props.buttonText}</a>
-                    </div>
+                    {props.buttonActive ? <ButtonWithImage active={true} image={props.buttonImage} text={props.buttonText} leftImage={props.leftButtonImage ? true : false} /> : <></>}
+
                 </div>
             </div>
         </div>
