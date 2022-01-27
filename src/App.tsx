@@ -40,7 +40,7 @@ function App() {
             </section>
 			<section id="features-section" className="features-section">
                 <HeaderFeatures />
-                <section className="features-section_mars-image">
+                <section className="features-section_mars-images">
                     <TitleFeature title="mars images"/>
                     <HeroContent
                         heroImage={marsImage}

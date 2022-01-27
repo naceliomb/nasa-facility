@@ -27,18 +27,24 @@ body {
 }
 
 .main-page .features-section{
-    width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-top: 60px;
 }
+
+.main-page .features-section .features-section_mars-images{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .main-page .features-section .features-section_mars-rovers{
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 60px;
 }
