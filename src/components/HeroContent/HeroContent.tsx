@@ -1,17 +1,26 @@
 import "./style.css";
+import Paragraph from "../Paragraph/Paragraph";
 
 type HeroProps = {
-    title?: string;
-    text?: string;
-    text2?: string;
-    buttonText?: string;
-    heroImage: string | undefined;
-    buttonImage?: string | undefined;
-    buttonActive: boolean;
-    rightHero?: boolean;
+    title?: string,
+    paragraphs: object,
+    buttonText?: string,
+    heroImage: string | undefined,
+    buttonImage?: string | undefined,
+    buttonActive: boolean,
+    rightHero?: boolean,
 };
 
 function HeroContent(props: HeroProps) {
+    const paragraphs = props.paragraphs;
+
+    const paragraphsArray = Object.keys(paragraphs).map(function (key) {
+        return paragraphs[key];
+    });
+
+
+
+
     return (
         <div className={props.rightHero ? "hero right-hero" : "hero"}>
             <div className="hero_image-container">
@@ -22,12 +31,10 @@ function HeroContent(props: HeroProps) {
                     <h3>{props.title}</h3>
                 </div>
                 <div className="hero_text-paragraph-container">
-                    <div className="hero_text-content">
-                        <p>{props.text}</p>
-                    </div>
-                    <div className="hero_text-content second-paragraph">
-                        <p>{props.text2}</p>
-                    </div>
+                    {paragraphsArray.map((paragraph) => {
+                        return <Paragraph text={paragraph} />;
+                    })}
+
                     <div className={props.buttonActive ? "hero_text-button" : ""}>
                         <img className="hero_text-button_image" src={props.buttonImage} />
                         <a href="#">{props.buttonText}</a>

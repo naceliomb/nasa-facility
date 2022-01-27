@@ -17,11 +17,26 @@ function App() {
     const contentApresentation1 = "Public information provided by NASA's API in a simplified and fair way.";
     const contentApresentation2 = "Get access to photos and other information from nasa missions.";
 
+    const landingApresentation = {
+        contentApresentation1,
+        contentApresentation2,
+
+    };
+    
     const marsImageApresentation1 = "Get access to images of our red neighbor.Thanks to rovers sent to mars by NASA ( Curiosity, Opportunity, Spirit, Perseverance ), we can have access to images of Mars."
     const marsImageApresentation2 = "Filter your search by Data, Camera, Rover."
-
+    const marsImageApresentation = {
+        marsImageApresentation1, 
+        marsImageApresentation2
+    };
+    
     const marsRoversApresentation1 = "Get access to information about rovers on mars launched by NASA."
-    const marsRoversApresentation2 = "Information such as: - Release date of. - Description of the mission. - Date of the last photo sent."
+    const marsRoversApresentation2 = "Information such as:<br>- Release date of.<br>- Description of the mission.<br>- Date of the last photo sent."
+    const marsRoversApresentation = {
+        marsRoversApresentation1,
+        marsRoversApresentation2
+    };
+
 
     return (
         <main className="main-page">
@@ -30,9 +45,8 @@ function App() {
                 <section className="sub-section apresentation-project">
                     <HeroContent
                         heroImage={HeroImageApresentation}
+                        paragraphs={landingApresentation}
                         title={titleApresentation}
-                        text={contentApresentation1}
-                        text2={contentApresentation2}
                         buttonActive={false}
                     />
                 </section>
@@ -44,8 +58,7 @@ function App() {
                     <TitleFeature title="mars images"/>
                     <HeroContent
                         heroImage={marsImage}
-                        text={marsImageApresentation1}
-                        text2={marsImageApresentation2}
+                        paragraphs={marsImageApresentation}
                         buttonActive={true}
                         buttonImage={marsImageButtonImage}
                         buttonText="LET'S GO?"
@@ -56,8 +69,7 @@ function App() {
                     <TitleFeature title="mars rovers" />
                     <HeroContent 
                         heroImage={nasaRover}
-                        text={marsRoversApresentation1}
-                        text2={marsRoversApresentation2}
+                        paragraphs={marsRoversApresentation}
                         buttonActive={true}
                         buttonImage={astronautButtonRocket}
                         buttonText="LET'S GO?"
