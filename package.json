@@ -1,6 +1,6 @@
 {
   "name": "nasa-facility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facility acess to information of NASA",
   "scripts": {
     "dev": "vite",
