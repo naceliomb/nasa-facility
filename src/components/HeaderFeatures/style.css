@@ -5,9 +5,13 @@
     max-height: 162px;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 
+}
+
+.header-features_right-side {
+    justify-content: flex-end !important;
 }
 
 .header-features .title-container{
