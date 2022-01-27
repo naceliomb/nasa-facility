@@ -20,7 +20,7 @@ function App() {
     const contentApresentation1 = "Public information provided by NASA's API in a simplified and fair way.";
     const contentApresentation2 = "Get access to photos and other information from nasa missions.";
 
-    const landingApresentation = {
+    const landingApresentation: {[index: string]:any} = {
         contentApresentation1,
         contentApresentation2,
 
@@ -28,14 +28,14 @@ function App() {
     
     const marsImageApresentation1 = "Get access to images of our red neighbor.<br>Thanks to rovers sent to mars by NASA ( Curiosity, Opportunity, Spirit, Perseverance ), we can have access to images of Mars.";
     const marsImageApresentation2 = "Filter your search by Data, Camera, Rover.";
-    const marsImageApresentation = {
+    const marsImageApresentation: {[index: string]:any} = {
         marsImageApresentation1, 
         marsImageApresentation2
     };
     
     const marsRoversApresentation1 = "Get access to information about rovers on mars launched by NASA.";
     const marsRoversApresentation2 = "Information such as:<br>- Release date of.<br>- Description of the mission.<br>- Date of the last photo sent.";
-    const marsRoversApresentation = {
+    const marsRoversApresentation: {[index: string]:any} = {
         marsRoversApresentation1,
         marsRoversApresentation2
     };
@@ -48,7 +48,7 @@ function App() {
     const aboutP4 = "NOTE:<br>This project was an object of study for my portfolio, with no monetization intentions and possibly given away free of charge. Check the license.";
     const aboutP5 = "Follow me on GitHub: github.com/naceliomb"
 
-    const aboutInfo = {
+    const aboutInfo: {[index: string]:any} = {
         aboutP1,
         aboutP2,
         aboutP3,

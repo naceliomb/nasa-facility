@@ -16,7 +16,7 @@ type HeroProps = {
 };
 
 function HeroContent(props: HeroProps) {
-    const paragraphs = props.paragraphs;
+    const paragraphs : {[index: string]:any} = props.paragraphs;
 
     const paragraphsArray = Object.keys(paragraphs).map(function (key) {
         return paragraphs[key];
